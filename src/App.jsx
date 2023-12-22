@@ -3,7 +3,7 @@ import Gun from 'gun'
 import './App.css'
 
 const gun = Gun({
-  peers: ['http:localhost:8000/gun'] // Put the relay node that you want here
+  peers: ['http:localhost:8000/gun', 'https://gun-server-t0uj.onrender.com/gun'] // Put the relay node that you want here
 });
 
 function App() {
